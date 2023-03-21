@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Examples\prak4\bin\Debug\net6.0\prak4.exe
+C:\Users\user\Desktop\Examples\prak4\bin\Debug\net6.0\prak4.deps.json
+C:\Users\user\Desktop\Examples\prak4\bin\Debug\net6.0\prak4.runtimeconfig.json
+C:\Users\user\Desktop\Examples\prak4\bin\Debug\net6.0\prak4.dll
+C:\Users\user\Desktop\Examples\prak4\bin\Debug\net6.0\prak4.pdb
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.AssemblyInfo.cs
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.dll
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\refint\prak4.dll
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.pdb
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\prak4.genruntimeconfig.cache
+C:\Users\user\Desktop\Examples\prak4\obj\Debug\net6.0\ref\prak4.dll

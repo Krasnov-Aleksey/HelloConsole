@@ -17,22 +17,22 @@ return -1;
 }
 
 // Поиск максимального значения в массиве
-int findMaxValue(int[] col)
-{
-    int length=col.Length;
-    int index=0;
-    int max=col[index];
-    while(index<length)
-    {
-        if (col[index]>max)
-        {
-            max=col[index];
-        }
+// int findMaxValue(int[] col)
+// {
+//     int length=col.Length;
+//     int index=0;
+//     int max=col[index];
+//     while(index<length)
+//     {
+//         if (col[index]>max)
+//         {
+//             max=col[index];
+//         }
         
-    index++;
-    }
-    return max;
-}
+//     index++;
+//     }
+//     return max;
+// }
 
 // Поиск максимального значение в диапазоне
 int findMaxValueRange(int[]col, int begin, int end)

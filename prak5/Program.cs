@@ -75,11 +75,11 @@ void InputArray(int[] array)
         array[i] = new Random().Next(-100, 101);
 }
 
-void ChArray(int[] array)
-{
-    for (int i = 0; i< array.Length; i++)
-        array[i]=array[i]*-1;
-}
+// void ChArray(int[] array)
+// {
+//     for (int i = 0; i< array.Length; i++)
+//         array[i]=array[i]*-1;
+// }
 
 int Arr1099(int[] col)
 {

@@ -1,4 +1,4 @@
-﻿void InputDArray(int [,] col)
+﻿void InputDArray(int [,] col) //Создание двухмерного массива
 {
     for (int i=0; i<col.GetLength(0);i++)
     {

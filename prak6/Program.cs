@@ -15,5 +15,5 @@ int n=Convert.ToInt32(Console.ReadLine());
 int n2=1;
 for (int i=0;i<=n;i++)
 {
-    Console.WrineLine(i);
+    Console.WriteLine(i);
 }

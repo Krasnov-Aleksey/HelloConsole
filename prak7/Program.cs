@@ -109,20 +109,36 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int ReleaseMatrix(int[,] matrix)
-{
-    int result = 0;
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            if (i == j)
-                result = result + matrix[i, j];
-        }
-    }
-    return result;
-}
+// int ReleaseMatrix(int[,] matrix)
+// {
+//     int result = 0;
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             if (i == j)
+//                 result = result + matrix[i, j];
+//         }
+//     }
+//     return result;
+// }
 
+// Console.Clear();
+// Console.Write("Введите размерность массива: ");
+// int[] size = Console.ReadLine()!.Split().Select(x => int.Parse(x)).ToArray();
+// int[,] matrix = new int[size[0], size[1]];
+// InputMatrix(matrix);
+// Console.WriteLine("Начальный массив");
+// PrintMatrix(matrix);
+//Console.WriteLine($"Результат {ReleaseMatrix(matrix)}");
+// foreach (int element in array)
+// {
+//     if (element % 2 == 1)
+//     {
+//         Console.Write($"{element} ");
+//         countEven++;
+//     }
+// }
 Console.Clear();
 Console.Write("Введите размерность массива: ");
 int[] size = Console.ReadLine()!.Split().Select(x => int.Parse(x)).ToArray();
@@ -130,4 +146,7 @@ int[,] matrix = new int[size[0], size[1]];
 InputMatrix(matrix);
 Console.WriteLine("Начальный массив");
 PrintMatrix(matrix);
-Console.WriteLine($"Результат {ReleaseMatrix(matrix)}");
+foreach(int element in matrix)
+{
+    Console.Write($"{element} ");
+}

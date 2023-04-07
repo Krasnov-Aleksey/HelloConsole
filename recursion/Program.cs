@@ -30,6 +30,17 @@
 //a=10;
 //string c= Convert.ToStrin(a);
 //Console.Write(Rec2(a,b));
+Console.Clear();
+string [] text={"A","B"};
+string Rec(string [] text)
+{
+    if (text.Length==0)
+    {
+        return text[0];
+    }
+    return text[1];
+}
+Console.WriteLine(Rec (text));
 
  
  
